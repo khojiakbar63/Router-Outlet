@@ -1,0 +1,16 @@
+.btn{
+    max-width: 200px;
+    border: 4px solid #FCB72B;
+    color: #FCB72B;
+    padding: 4px 20px;
+    font-weight: bold;
+    transition: .1s ease-in;
+    &:hover {
+        border: 4px solid #fcb62bab;
+        color: #fcb62bae;
+    }
+    &:active{
+        border: 4px solid #FCB72B;
+        color: #FCB72B;
+    }
+}

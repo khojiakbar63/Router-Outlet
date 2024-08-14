@@ -1,0 +1,27 @@
+#intro{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.355);
+    &::before{
+        content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/Bitmap.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #8b0a0ab0;
+    filter: blur(2px); // Adjust the blur intensity
+    z-index: -1;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #7875a080; // Change the color and transparency here
+        z-index: -1;
+      }
+}
